@@ -58,9 +58,8 @@ mfm-robotic-instruction-learning/
 │
 ├── multimodal_network.py                # MFM architecture definition
 ├── finetune_multimodal.py               # Training pipeline
-├── inference_ai2thor.py                 # Inference & robot control in AI2-THOR
-├── synthetic_data_generator_litellm.py  # Synthetic dataset generator (LiteLLM + Mistral)
-├── synthetic_seq_generator.py           # Sequential scene data generator
+├── inference_multimodal.py                 # Inference & robot control in AI2-THOR
+├── data_generator.py  # Synthetic dataset generator (LiteLLM + Mistral)
 │
 ├── checkpoints/                         # Model weights
 ├── synthetic_dataset/                    # Frames + JSONL annotations
@@ -88,14 +87,9 @@ pip install -r requirements.txt
 
 Generate frames + annotations using Mistral via LiteLLM:
 
-```bash
-python synthetic_data_generator_litellm.py
-```
-
-For sequential episodes (plans + multi-step tasks):
 
 ```bash
-python synthetic_seq_generator.py
+python data_generator.py
 ```
 
 Output:
@@ -143,7 +137,7 @@ Results summary:
 ## 🤖 Inference in AI2-THOR
 
 ```bash
-python inference_ai2thor.py
+python inference_multimodal.py
 ```
 
 Example Output:
@@ -180,41 +174,11 @@ No quantization or checkpointing used.
 
 ---
 
-## 👨‍💻 Author
-
-**Rajul Kumar**
-Ph.D. Researcher — George Mason University
-*Human–Robot Interaction • Multimodal Learning • Cognitive Modeling*
-
-📧 [rajul.kumar@gmu.edu](mailto:rajul.kumar@gmu.edu)
-📘 [LinkedIn](https://www.linkedin.com/in/rajulkumar)
-🌐 [Google Scholar](https://scholar.google.com)
-
----
-
 ## 🧾 License
 
 This project is released under the [MIT License](./LICENSE).
 
 ---
-
-## 🧩 Citation
-
-If you use this repository, please cite:
-
-```
-@article{Kumar2025MFM,
-  title   = {Memory-Efficient Multimodal Fusion Model for Vision–Language Robotic Reasoning},
-  author  = {Rajul Kumar},
-  year    = {2025},
-  journal = {GitHub Repository},
-  url     = {https://github.com/<your-username>/mfm-robotic-instruction-learning}
-}
-```
-
----
-
-```
 
 ---
 
