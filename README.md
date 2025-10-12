@@ -33,17 +33,7 @@ All experiments were conducted on a **single NVIDIA GeForce GTX 1650 (4 GB VRAM)
 ## 🧩 Model Architecture
 ```
 
-[ CLIP Encoder (frozen) ]
-↓ (512-D)
-[ Linear Projection ]
-↓
-[ Gated Cross-Attention ]
-↓
-[ DistilGPT-2 Decoder ]
-↓
-┌────────────┬────────────┬────────────┬────────────┐
-| ActionHead |  VQAHead   |  DescHead  | ProgHead   |
-└────────────┴────────────┴────────────┴────────────┘
+![Model Architecture](utils/img.png)
 
 ```
 **Peak memory usage:** 3.7 GB on GTX 1650  
