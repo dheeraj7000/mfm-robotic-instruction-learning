@@ -10,7 +10,7 @@
 ## 🧩 Model Architecture
 ```
 
-![Model Architecture](./utils/img.png)
+![Model Architecture](https://github.com/dheeraj7000/mfm-robotic-instruction-learning/blob/main/utils/img.png?raw=true)
 
 ```
 ---
