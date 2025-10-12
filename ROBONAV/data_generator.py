@@ -19,7 +19,7 @@ from tqdm import tqdm
 import ai2thor.controller
 from litellm import completion  # unified chat API
 
-os.environ['MISTRAL_API_KEY'] = "cXD8hvQnBRWPLXIAhtb9KpYlwGOTQi0l"
+os.environ['MISTRAL_API_KEY'] = os.getenv["MISTRAL_API_KEY"]
 
 # ============================
 # CONFIGURATION
