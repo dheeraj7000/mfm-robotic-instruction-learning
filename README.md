@@ -8,11 +8,9 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ## 🧩 Model Architecture
-```
 
 ![Model Architecture](https://github.com/dheeraj7000/mfm-robotic-instruction-learning/blob/main/utils/img.png?raw=true)
 
-```
 ---
 
 ## 🧠 Overview
