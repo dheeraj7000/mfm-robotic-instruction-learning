@@ -7,6 +7,12 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
+## 🧩 Model Architecture
+```
+
+![Model Architecture](./utils/img.png)
+
+```
 ---
 
 ## 🧠 Overview
@@ -30,18 +36,14 @@ All experiments were conducted on a **single NVIDIA GeForce GTX 1650 (4 GB VRAM)
 
 ---
 
-## 🧩 Model Architecture
-```
-
-![Model Architecture](utils/img.png)
-
-```
 **Peak memory usage:** 3.7 GB on GTX 1650  
 **Training time:** ~10 min/epoch on 550 samples
 
 ---
 
 ## 📦 Repository Structure
+```
+
 ```
 
 mfm-robotic-instruction-learning/
