@@ -1,0 +1,17 @@
+{
+  "scene_id": "FloorPlan1_Train_10",
+  "frame_path": "./frames/floorplan1/frame_102.png",
+  "prompt": "You see an apple on the counter. What should the robot do next?",
+  "mode": "action",
+  "action_label": "PickupObject",
+  "action_id": 5,
+  "target_text": "Pick up the apple and place it on the plate.",
+  "question": "What object is on the counter?",
+  "answer_text": "An apple.",
+  "progress_value": 0.65,
+  "task_type": 1,
+  "prev_action": "MoveAhead",
+  "history_text": "You moved ahead and looked around the kitchen.",
+  "timestamp": 101.5,
+  "split": "train"
+}
